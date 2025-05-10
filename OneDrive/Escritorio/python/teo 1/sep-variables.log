@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.10)  10 MAY 2025 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.10)  10 MAY 2025 13:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -415,26 +415,77 @@ Overfull \hbox (37.42947pt too wide) detected at line 121
 
 {C:/Users/FIUBA/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
 
-[2] (sep-variables.aux)
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varphi' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rho' on input line 145.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 183.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varphi' on input line 183.
+
+
+Overfull \hbox (12.05615pt too wide) in paragraph at lines 188--191
+ []\T1/lmr/bx/n/12 Espacio aco-tado: $\OML/lmm/m/it/12 ' \OMS/lmsy/m/n/12 2 \OT1/lmr/m/n/12 [0\OML/lmm/m/it/12 ; \OT1/lmr/m/n/12 2\OML/lmm/m/it/12 ^^Y\OT1/lmr/m/n/12 ]$\T1/lmr/bx/n/12 , $\OML/lmm/m/it/12 z \OMS/lmsy/m/n/12 2 \OT1/lmr/m/n/12 [0\OML/lmm/m/it/12 ; c\OT1/lmr/m/n/12 ]$[] \T1/lmr/m/n/12 Mo-dos an-gu-lares $\OML/lmm/m/it/12 e[]$ \T1/lmr/m/n/12 y lon-gi-tu-di-nales $[]\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 n^^Yz=c\OT1/lmr/m/n/12 )$\T1/lmr/m/n/12 .
+ []
+
+
+
+[2]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 226.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varphi' on input line 226.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 226.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 262.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varphi' on input line 262.
+
+
+
+[3]
+
+[4] (sep-variables.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
 Package rerunfilecheck Info: File `sep-variables.out' has not changed.
-(rerunfilecheck)             Checksum: CE04583AF35EB1080DF27224C0AE174F;515.
+(rerunfilecheck)             Checksum: 7C6B7FAE6D7B09B7156C618CB1C1B976;1276.
  ) 
 Here is how much of TeX's memory you used:
- 9764 strings out of 469941
- 150235 string characters out of 5469430
- 548162 words of memory out of 5000000
- 36437 multiletter control sequences out of 15000+600000
- 670220 words of font info for 79 fonts, out of 8000000 for 9000
+ 9789 strings out of 469941
+ 150563 string characters out of 5469430
+ 548169 words of memory out of 5000000
+ 36446 multiletter control sequences out of 15000+600000
+ 673218 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,310b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on sep-variables.pdf (2 pages, 147476 bytes).
+ 75i,7n,79p,310b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on sep-variables.pdf (4 pages, 182223 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

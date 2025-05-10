@@ -137,6 +137,167 @@ E(k_y,k_z)\,e^{+\kappa'' x}
 \kappa''=\sqrt{k_y^2+k_z^2}.
 \end{equation}
 
+\section{Coordenadas Cilíndricas}
+
+En coordenadas cilíndricas \((\rho,\varphi,z)\) la separación da siempre un modo angular \(e^{i m\varphi}\) (\(m\in\mathbb Z\)) y una parte radial y otra en \(z\). 
+\\En $\varphi$ siempre tenemos base
+
+\subsection{Base en \(\varphi,\rho\)}
+
+En esta base se toma
+\(\;Q_\nu(\varphi)=e^{i\nu\varphi},\;\nu\in\mathbb Z\).
+
+\paragraph{Espacio acotado: \(\rho\in[0,a]\), \(\varphi\in[0,2\pi]\)}  
+Se imponen \(R(\rho=a)=0\), de modo que los ceros discretos vienen de  
+\(\alpha_{\nu n}\) = \(n\)-ésimo cero de \(J_\nu\). Definimos  
+\(\kappa_{\nu n}=\alpha_{\nu n}/a\).  
+\[
+\boxed{
+\Phi(\rho,\varphi,z)
+=\sum_{\nu=-\infty}^{\infty}\sum_{n=1}^{\infty}
+\bigl[
+E_{\nu n}\,e^{+\kappa_{\nu n}\,z}
++F_{\nu n}\,e^{-\kappa_{\nu n}\,z}
+\bigr]\,
+J_{\nu}\!\bigl(\alpha_{\nu n}\,\tfrac{\rho}{a}\bigr)\,
+e^{i\nu\varphi}.
+}
+\]
+
+\paragraph{Espacio no acotado: \(\rho\in[0,\infty)\), \(\varphi\in[0,2\pi]\)}  
+El espectro radial es ahora continuo \(k\ge0\); definimos \(\kappa=k\).  
+\[
+\boxed{
+\Phi(\rho,\varphi,z)
+=\sum_{\nu=-\infty}^{\infty}
+\int_{0}^{\infty}
+\bigl[
+E_{\nu}(k)\,e^{+k\,z}
++F_{\nu}(k)\,e^{-k\,z}
+\bigr]\,
+J_{\nu}(k\,\rho)\,
+e^{i\nu\varphi}\,
+\frac{k\,dk}{2\pi}.
+}
+\]
+\subsection{Base en \(\varphi,z\)}
+
+Aquí se separa \(\varphi\) y \(z\), quedando \(\rho\) como variable restante.
+
+\paragraph{Espacio acotado: \(\varphi\in[0,2\pi]\), \(z\in[0,c]\)}  
+Modos angulares \(e^{i\nu\varphi}\) y longitudinales \(\sin(n\pi z/c)\).  
+Para finitud en \(\rho=0\) y ceros en \(\rho=a\), usamos ceros de \(I_\nu\) o \(K_\nu\) según la BC.  
+Definimos \(\beta_{\nu n}\) = \(n\)-ésimo cero de la función radial en \(\rho=a\).  
+\[
+\boxed{
+\Phi(\rho,\varphi,z)
+=\sum_{\nu=-\infty}^{\infty}\sum_{n=1}^{\infty}
+D_{\nu n}\,
+I_{\nu}\!\bigl(\beta_{\nu n}\,\rho\bigr)\,
+e^{i\nu\varphi}\,
+\sin\!\Bigl(\tfrac{n\pi z}{c}\Bigr).
+}
+\]
+
+\paragraph{Espacio no acotado: \(\varphi\in[0,2\pi]\), \(z\in(-\infty,\infty)\)}  
+Para decaimiento radial usamos los \(K_\nu\).  
+\[
+\boxed{
+\Phi(\rho,\varphi,z)
+=\sum_{\nu=-\infty}^{\infty}
+\int_{-\infty}^{\infty}
+G_{\nu}(k_z)\,
+K_{\nu}\bigl(\kappa\,\rho\bigr)\,
+e^{i\nu\varphi}\,
+e^{i k_z z}\,
+\frac{dk_z}{2\pi},
+\quad
+\kappa=\sqrt{k_z^2}.
+}
+\]
+
+\section{Coordenadas Esféricas}
+
+En coordenadas esféricas \((r,\theta,\varphi)\) se separa en
+\(\Phi\sim Q_m(\varphi)\,\Theta_{\ell m}(\theta)\,R(r)\),
+con \(Q_m(\varphi)=e^{\,i m\varphi}\), \(\;m\in\mathbb Z\), y
+\(\Theta_{\ell m}(\theta)=P_\ell^m(\cos\theta)\), \(\ell\ge |m|\).
+
+\subsection{Base en \(\varphi,\theta\)}
+
+\paragraph{Espacio acotado: \(\varphi\in[0,2\pi]\), \(\theta\in[0,\pi]\)}  
+Modos angulares discretos:
+\[
+Q_m(\varphi)=e^{i m\varphi},\quad
+\Theta_{\ell m}(\theta)=P_\ell^m(\cos\theta),
+\quad m=-\ell,\dots,\ell,\;\ell=0,1,2,\dots
+\]
+La parte radial satisface
+\[
+r^2R''+2rR'-\ell(\ell+1)R-\lambda\,r^2R=0.
+\]
+\[
+\boxed{
+\Phi(r,\theta,\varphi)
+=\sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell}
+\bigl[A_{\ell m}\,r^{\ell}+B_{\ell m}\,r^{-(\ell+1)}\bigr]\,
+P_\ell^m(\cos\theta)\,e^{i m\varphi}.
+}
+\]
+
+\paragraph{Espacio no acotado: \(\varphi\in[0,2\pi]\), \(\theta\in[0,\pi]\)}  
+Para el caso Helmholtz \(\lambda=-k^2\):
+\[
+\boxed{
+\Phi(r,\theta,\varphi)
+=\sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell}
+\int_{0}^{\infty}
+\bigl[A_{\ell m}(k)\,j_\ell(k r)+B_{\ell m}(k)\,n_\ell(k r)\bigr]\,
+P_\ell^m(\cos\theta)\,e^{i m\varphi}\,
+\frac{2k^2\,dk}{\pi}.
+}
+\]
+Para Helmholtz modificado \(\lambda=+\kappa^2\), reemplaza \(j_\ell,n_\ell\) por \(i_\ell,k_\ell\).
+
+\subsection{Base en \(\varphi,r\)}
+
+\paragraph{Espacio acotado: \(\varphi\in[0,2\pi]\), \(r\in[0,R]\)}  
+Modos azimutales y discretos en \(r\):
+\[
+Q_m(\varphi)=e^{i m\varphi},\quad
+R_{m n}(r)=j_m\!\bigl(\alpha_{m n}\,\tfrac{r}{R}\bigr),
+\]
+donde \(\alpha_{m n}\) es el \(n\)-ésimo cero de \(j_m\).  
+La parte \( \Theta(\theta)\) satisface
+\(\;(1/\sin\theta)(\sin\theta\,\Theta')'+[\ell(\ell+1)]\Theta=0\), así:
+\[
+\boxed{
+\Phi(r,\theta,\varphi)
+=\sum_{m=-\infty}^{\infty}\sum_{n=1}^{\infty}
+C_{m n}\,
+j_m\!\bigl(\alpha_{m n}\tfrac{r}{R}\bigr)\,
+e^{i m\varphi}\,
+P_m(\cos\theta).
+}
+\]
+
+\paragraph{Espacio no acotado: \(\varphi\in[0,2\pi]\), \(r\in[0,\infty)\)}  
+Aquí \(r\) continuo y \(\Theta=P_m\):
+\[
+\boxed{
+\Phi(r,\theta,\varphi)
+=\sum_{m=-\infty}^{\infty}
+\int_{0}^{\infty}
+D_{m}(k)\,
+h_m^{(1)}(k r)\,
+e^{i m\varphi}\,
+P_m(\cos\theta)\,
+\frac{2k^2\,dk}{\pi},
+}
+\]
+con \(h_m^{(1)}\) ondas salientes (o usa \(h_m^{(2)}\) para entrantes).
+
+
+
+
 \end{document}
-
-

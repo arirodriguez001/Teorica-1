@@ -175,6 +175,7 @@ INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.
 INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
+INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT sep-variables.aux
 INPUT .\sep-variables.out
 INPUT .\sep-variables.out
@@ -194,7 +195,11 @@ INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.p
 INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.pfb
 INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy6.pfb
 INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy6.pfb
 INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
 INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
+INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\FIUBA\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
