@@ -1,0 +1,142 @@
+% Documento base de LaTeX
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{hyperref}
+\usepackage{setspace}
+\singlespacing
+
+\setlength{\abovedisplayskip}{6pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 2pt}
+\setlength{\jot}{4pt}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{1em}
+
+
+\title{Solución General del Potencial - Separacion de Variables}
+\author{ }
+\date{\today}
+\begin{document}
+
+\maketitle
+
+\section{Coordenadas Cartesianas}
+
+\subsection{Base en $x,y$}
+
+% Acotado
+Espacio acotado 
+
+\begin{equation}
+\Phi(x,y,z)
+=\sum_{n=1}^{\infty}\sum_{m=1}^{\infty}
+\sin\Bigl(\frac{n\pi x}{a}\Bigr)
+\sin\Bigl(\frac{m\pi y}{b}\Bigr)
+\Bigl[
+A_{nm}\,e^{+\kappa_{nm}z}
++ B_{nm}\,e^{-\kappa_{nm}z}
+\Bigr],
+\quad
+\kappa_{nm}
+=\sqrt{\Bigl(\frac{n\pi}{a}\Bigr)^{2}+\Bigl(\frac{m\pi}{b}\Bigr)^{2}}.
+\end{equation}
+
+% No acotado
+
+Espacio no acotado
+
+\begin{equation}
+\Phi(x,y,z)
+=\iint_{-\infty}^{\infty}
+ e^{i(k_x x + k_y y)}
+\Bigl[
+A(k_x,k_y)\,e^{+\kappa z}
++ B(k_x,k_y)\,e^{-\kappa z}
+\Bigr]
+\frac{dk_x\,dk_y}{(2\pi)^2},
+\quad
+\kappa=\sqrt{k_x^2+k_y^2}.
+\end{equation}
+
+\subsection{Base en $x,z$}
+
+% Acotado
+
+Espacio acotado
+
+\begin{equation}
+\Phi(x,y,z)
+=\sum_{n=1}^{\infty}\sum_{p=1}^{\infty}
+\sin\Bigl(\frac{n\pi x}{a}\Bigr)
+\sin\Bigl(\frac{p\pi z}{c}\Bigr)
+\Bigl[
+C_{np}\,e^{+\kappa'_{np}y}
++ D_{np}\,e^{-\kappa'_{np}y}
+\Bigr],
+\quad
+\kappa'_{np}
+=\sqrt{\Bigl(\frac{n\pi}{a}\Bigr)^{2}+\Bigl(\frac{p\pi}{c}\Bigr)^{2}}.
+\end{equation}
+
+% No acotado
+
+Espacio no acotado
+
+\begin{equation}
+\Phi(x,y,z)
+=\iint_{-\infty}^{\infty}
+ e^{i(k_x x + k_z z)}
+\Bigl[
+C(k_x,k_z)\,e^{+\kappa' y}
++ D(k_x,k_z)\,e^{-\kappa' y}
+\Bigr]
+\frac{dk_x\,dk_z}{(2\pi)^2},
+\quad
+\kappa'=\sqrt{k_x^2+k_z^2}.
+\end{equation}
+
+\subsection{Base en $y,z$}
+
+% Acotado
+
+Espacio acotado
+
+\begin{equation}
+\Phi(x,y,z)
+=\sum_{m=1}^{\infty}\sum_{p=1}^{\infty}
+\sin\Bigl(\frac{m\pi y}{b}\Bigr)
+\sin\Bigl(\frac{p\pi z}{c}\Bigr)
+\Bigl[
+E_{mp}\,e^{+\kappa''_{mp}x}
++ F_{mp}\,e^{-\kappa''_{mp}x}
+\Bigr],
+\quad
+\kappa''_{mp}
+=\sqrt{\Bigl(\frac{m\pi}{b}\Bigr)^{2}+\Bigl(\frac{p\pi}{c}\Bigr)^{2}}.
+\end{equation}
+
+% No acotado
+
+Espacio no acotado
+
+\begin{equation}
+\Phi(x,y,z)
+=\iint_{-\infty}^{\infty}
+ e^{i(k_y y + k_z z)}
+\Bigl[
+E(k_y,k_z)\,e^{+\kappa'' x}
++ F(k_y,k_z)\,e^{-\kappa'' x}
+\Bigr]
+\frac{dk_y\,dk_z}{(2\pi)^2},
+\quad
+\kappa''=\sqrt{k_y^2+k_z^2}.
+\end{equation}
+
+\end{document}
+
+
