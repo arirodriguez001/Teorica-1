@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1746895052.10347 "c:/Users/FIUBA/OneDrive/Escritorio/python/teo 1/sep-variables.tex" "sep-variables.pdf" "sep-variables" 1746895053.84369 0
+["pdflatex"] 1746922124.62379 "c:/Users/FIUBA/OneDrive/Escritorio/python/teo 1/sep-variables.tex" "sep-variables.pdf" "sep-variables" 1746922126.05922 0
   "C:/Users/FIUBA/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1746893344 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/FIUBA/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746890887 13157641 48e83eed164f16fbb34aaf7265c12a47 ""
   "C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -96,10 +96,10 @@
   "C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/FIUBA/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/FIUBA/OneDrive/Escritorio/python/teo 1/sep-variables.tex" 1746895050 7235 5fcd5facb1b0d953f2aa07fd8d7d83f5 ""
-  "sep-variables.aux" 1746895053 2615 1d9b3184ee82ffd786a576bdb67f5703 "pdflatex"
-  "sep-variables.out" 1746895053 1276 7c6b7fae6d7b09b7156c618cb1c1b976 "pdflatex"
-  "sep-variables.tex" 1746895050 7235 5fcd5facb1b0d953f2aa07fd8d7d83f5 ""
+  "c:/Users/FIUBA/OneDrive/Escritorio/python/teo 1/sep-variables.tex" 1746922123 7235 5fcd5facb1b0d953f2aa07fd8d7d83f5 ""
+  "sep-variables.aux" 1746922125 2615 1d9b3184ee82ffd786a576bdb67f5703 "pdflatex"
+  "sep-variables.out" 1746922125 1276 7c6b7fae6d7b09b7156c618cb1c1b976 "pdflatex"
+  "sep-variables.tex" 1746922123 7235 5fcd5facb1b0d953f2aa07fd8d7d83f5 ""
   (generated)
   "sep-variables.aux"
   "sep-variables.log"
