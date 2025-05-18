@@ -1,0 +1,121 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{physics}
+\usepackage{bm}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\begin{document}
+
+\section*{Ejercicio 1.a}
+
+La fuerza entre dos cargas iguales \( q \), que pueden ser del mismo signo o no:
+
+\[
+\frac{d\vec{p}_{\text{tot}}}{dt} = \vec{F}_0 + \vec{F}_{\text{EM}}
+\]
+
+\[
+\vec{F}_{\text{EM}} = \int_{\partial V} \dd{s} \, \mathbb{T} \cdot \hat{n} - \frac{1}{4\pi c} \dv{t} \int_V \dd{v} \, \vec{E} \times \vec{B}
+\]
+
+\[
+\dv{t} \left[ \vec{p}_{\text{mec}} + \frac{1}{4\pi c} \int_V \dd{v} \, \vec{E} \times \vec{B} \right] = \vec{F}_0 + \int_{\partial V} \dd{s} \, \mathbb{T} \cdot \hat{n} = 0 \quad \text{(estacionario)}
+\]
+
+\[
+\Rightarrow \vec{F}_0 = - \int_{\partial V} \dd{s} \, \mathbb{T} \cdot \hat{n} = - \left[ \int_{S_R} \mathbb{T} \cdot \hat{n}_R \dd{s}_R + \int_{S_\alpha} \mathbb{T} \cdot \hat{n}_\alpha \dd{s}_\alpha \right]
+\]
+
+Tomamos una semiesfera:
+
+\[
+S_{\text{tot}} = S_R \cup S_\alpha
+\]
+
+\begin{align*}
+\vec{E}_{\text{total}} &= \frac{q (\vec{r} - \vec{r}')}{|\vec{r} - \vec{r}'|^3} + \frac{q' (\vec{r} - \vec{r}'')}{|\vec{r} - \vec{r}''|^3} \\
+&= \frac{q (\vec{r} + d \hat{z})}{(r^2 + (z + d)^2)^{3/2}} + \frac{q' (\vec{r} - d \hat{z})}{(r^2 + (z - d)^2)^{3/2}}
+\end{align*}
+
+\textbf{Mejor con Gauss:}
+
+\[
+\oint \vec{E} \cdot \dd{s} = 4\pi Q_{\text{enc}} \Rightarrow 4\pi r^2 E(r) = 4\pi q \Rightarrow E(r) = \frac{q}{r^2}
+\]
+
+\[
+E'(r) = \frac{q'}{r^2}
+\]
+
+\textbf{Expansión multipolar:}
+
+\[
+\vec{E}_{r \gg d} = \frac{Q_{\text{total}}}{r^2} \hat{r} + \frac{3(\vec{P} \cdot \hat{r}) \hat{r} - \vec{P}}{r^3}
+\quad \text{con} \quad \vec{P} = q \cdot 2d \hat{z}
+\]
+
+\begin{itemize}
+\item Si \( q = q' \):
+\[
+\vec{E}_T = \frac{q}{r^2} \hat{r} - \frac{q d}{r^3} \hat{z} + \frac{q'}{r^2} \hat{r} + \frac{q' d}{r^3} \hat{z}
+\]
+\item Si \( q = -q' \):
+\[
+\vec{E}_T = \frac{q}{r^2} \hat{r} - \frac{q d}{r^3} \hat{z} - \frac{q}{r^2} \hat{r} + \frac{q d}{r^3} \hat{z}
+\Rightarrow \vec{E}_T = \frac{2 q d}{r^3} \hat{z}
+\]
+\end{itemize}
+
+\[
+\int_{S_T} \dd{s} \, \mathbb{T} \cdot \hat{n} = \int_{S_R} \dd{s} \, \mathbb{T} \cdot \hat{n} + \int_{S_\alpha} \dd{s} \, \mathbb{T} \cdot \hat{n}
+\]
+
+\[
+\mathbb{T} = \frac{1}{4\pi} \left[ \vec{E} (\vec{E} \cdot \hat{n}) + \vec{B} (\vec{B} \cdot \hat{n}) - \frac{1}{2}(E^2 + B^2) \hat{n} \right]
+\]
+
+---
+
+\section*{Cálculo de la fuerza}
+
+\[
+\vec{E}^{\text{tot}}_{z=0} = \frac{q (\vec{r} + d \hat{z})}{(r^2 + d^2)^{3/2}} + \frac{q' (\vec{r} - d \hat{z})}{(r^2 + d^2)^{3/2}}
+\Rightarrow \frac{2 q r \hat{r}}{(r^2 + d^2)^{3/2}} - \frac{2 q d \hat{z}}{(r^2 + d^2)^{3/2}}
+\quad \text{si } q = -q'
+\]
+
+\[
+\Rightarrow \vec{F}_0 = - \int_{S_R} \dd{s} \, \mathbb{T} \cdot \hat{n}_R = - \int_0^{2\pi} \dd{\varphi} \int_0^\infty \dd{r} \left( - \frac{1}{4\pi} \left[ \vec{E} (\vec{E} \cdot \hat{z}) - \frac{1}{2} E^2 \hat{z} \right] \right)
+\]
+
+\textbf{Caso \( q = -q' \), \( \vec{E} \cdot \hat{z} = 0 \):}
+
+\[
+\vec{F}_0 = - \int_0^{2\pi} \dd{\varphi} \int_0^\infty \dd{r} \left( - \frac{1}{4\pi} \left( - \frac{1}{2} E^2 \hat{z} \right) \right)
+= \int_0^{2\pi} \dd{\varphi} \int_0^\infty \dd{r} \left( \frac{1}{8\pi} E^2 \right)
+\]
+
+\[
+= 2\pi \int_0^\infty \dd{r} \left( \frac{2 q^2}{(r^2 + d^2)^3} \cdot r \right)
+= \frac{q^2}{2} \int_0^\infty \frac{d^2 \cdot x^2}{(1 + x^2)^3} \dd{x}, \quad x = \frac{r}{d}
+\]
+
+\[
+\Rightarrow \frac{-q^2}{2 d^2} \int_0^\infty \frac{x^2 \dd{x}}{(1 + x^2)^3}
+= \frac{-q^2}{2 d^2} \int_0^\infty \frac{u - 1}{u^3} \frac{\dd{u}}{2}, \quad u = x^2 + 1
+\]
+
+\[
+= \frac{\alpha}{2} \left[ \int_0^\infty \frac{1}{u^2} \dd{u} - \int_0^\infty \frac{1}{u^3} \dd{u} \right]
+= \frac{q^2}{2 d^2} \cdot \left( -\frac{1}{u} + \frac{1}{2 u^2} \right) \bigg|_1^\infty
+\Rightarrow \frac{q^2}{8 d^2}
+\]
+
+\[
+\boxed{\vec{F}_0 = \frac{q^2}{8 d^2}}
+\]
+
+
+\end{document}
